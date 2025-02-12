@@ -44,20 +44,25 @@ section {
 }
 /* Footer Styling */
 footer {
-    background-color: #222;  /* Dark background */
-    color: white;            /* White text */
-    text-align: center;      /* Centered text */
-    padding: 15px 0;
+    background-color: #90EE90;  /* Light green background */
+    color: black;               /* Black text */
+    text-align: center;
+    padding: 20px 0;
 }
 
-/* Social Media Icons in Footer */
-footer p a {
-    font-size: 20px;  /* Icon size */
-    margin: 0 10px;
-    color: white;  /* Default icon color */
+/* Social Media Icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 24px;  /* Icon size */
+    margin: 0 15px;
+    color: black;  /* Default icon color */
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-footer p a:hover {
-    color: #FFD700; /* Gold hover effect */
+.social-icons a:hover {
+    color: #006400; /* Dark green on hover */
 }
