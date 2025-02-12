@@ -42,3 +42,22 @@ section {
     max-width: 800px;
     margin: auto;
 }
+/* Footer Styling */
+footer {
+    background-color: #222;  /* Dark background */
+    color: white;            /* White text */
+    text-align: center;      /* Centered text */
+    padding: 15px 0;
+}
+
+/* Social Media Icons in Footer */
+footer p a {
+    font-size: 20px;  /* Icon size */
+    margin: 0 10px;
+    color: white;  /* Default icon color */
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #FFD700; /* Gold hover effect */
+}
