@@ -42,6 +42,17 @@ section {
     max-width: 800px;
     margin: auto;
 }
+.journal-logos {
+    display: flex;
+    justify-content: center;  /* Centers images */
+    gap: 20px;  /* Adds spacing between images */
+    margin-bottom: 20px;  /* Space before publication list */
+}
+
+.journal-img {
+    width: 200px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+}
 /* Make Footer Fixed at Bottom */
 footer {
     background-color: #CCCCFF;  /* Light green */
