@@ -60,6 +60,10 @@ body {
     padding-bottom: 60px; /* Ensure content does not overlap footer */
 }
 
+p {
+    font-size: 0.9rem;
+}
+
 /* Social Media Icons Styling */
 .social-icons {
     margin-top: 10px;
