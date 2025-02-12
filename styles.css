@@ -42,15 +42,25 @@ section {
     max-width: 800px;
     margin: auto;
 }
-/* Footer Styling */
+/* Make Footer Fixed at Bottom */
 footer {
-    background-color: #CCCCFF;  /* Light blue background */
-    color: black;               /* Black text */
+    background-color: #CCCCFF;  /* Light green */
+    color: black;
     text-align: center;
     padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-/* Social Media Icons */
+/* Add Padding to Body to Avoid Overlapping */
+body {
+    padding-bottom: 60px; /* Ensure content does not overlap footer */
+}
+
+/* Social Media Icons Styling */
 .social-icons {
     margin-top: 10px;
 }
@@ -58,11 +68,18 @@ footer {
 .social-icons a {
     font-size: 24px;  /* Icon size */
     margin: 0 15px;
-    color: black;  /* Default icon color */
+    color: black;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
+.custom-icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+/* Hover Effect */
 .social-icons a:hover {
-    color: #006400; /* Dark green on hover */
+    color: #006400; /* Dark green */
 }
