@@ -74,6 +74,7 @@ nav ul li a:hover {
     display: flex; /* Align the two additional photos horizontally */
     gap: 20px; /* Space between the two images */
     margin-top: 10px; /* Space between the profile section and the additional photos */
+    align-items: center;
 }
 
 .photo-container {
