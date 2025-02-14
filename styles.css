@@ -62,18 +62,19 @@ nav ul li a:hover {
 }
 
 .text-container {
-    flex: 4; /* Let text take all remaining space */
-    max-width: 800px;
+    flex-grow: 1; /* Allow text container to expand and fill remaining space */
+    max-width: 100%;
     text-align: justify;
-    font-size: 50px; /* Adjust text size */
     line-height: 1.5;
     font-size: 1rem;
+    box-sizing: border-box;
+    margin: 0 10px; /* Add margin for spacing */
 }
 
 .additional-photos {
     display: flex; /* Align the two additional photos horizontally */
     gap: 20px; /* Space between the two images */
-    margin-top: 10px; /* Space between the profile section and the additional photos */
+    margin-top: 3px; /* Space between the profile section and the additional photos */
     align-items: center;
     margin: auto; /* Center horizontally */
     max-width: 100%; /* Use 100% of screen width */
