@@ -45,8 +45,8 @@ nav ul li a:hover {
     display: flex; /* Arrange image and text side by side */
     align-items: flex-start; /* Align items to the top to avoid stretching vertically */
     flex-wrap: wrap;
-    max-width: 100%; /* Use 90% of screen width */
-    margin-right: 200px; 
+    max-width: 100%; /* Use 100% of screen width */
+    margin-right: 250px; 
     gap: 20px; /* Space between image and text */
 }
 
@@ -66,7 +66,7 @@ nav ul li a:hover {
     max-width: 100%;
     text-align: justify;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 1.5rem;
     box-sizing: border-box;
     margin-right: 0 5px; /* Add margin for spacing */
 }
