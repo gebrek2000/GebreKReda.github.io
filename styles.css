@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 .text-container {
-    flex: 2; /* Let text take all remaining space */
+    flex: 4; /* Let text take all remaining space */
     max-width: calc(100% - 200px);
     text-align: justify;
     font-size: 50px; /* Adjust text size */
