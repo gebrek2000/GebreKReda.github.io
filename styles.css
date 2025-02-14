@@ -41,6 +41,24 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.home-container {
+    display: flex;         /* Aligns items in a row */
+    align-items: center;   /* Centers items vertically */
+    gap: 20px;            /* Adds space between image and text */
+}
+
+.profile {
+    width: 200px;   /* Adjust width as needed */
+    height: auto;   /* Keeps the aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.home-container p {
+    text-align: justify;
+    line-height: 1.5;
+    flex: 1; /* Allows text to take the remaining space */
+}
+
 /* Add spacing for content */
 section {
     padding: 50px 20px;
