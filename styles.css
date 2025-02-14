@@ -47,7 +47,7 @@ nav ul li a:hover {
     gap: 20px;            /* Adds space between image and text */
 }
 
-.profile {
+.Profile {
     width: 200px;   /* Adjust width as needed */
     height: auto;   /* Keeps the aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
