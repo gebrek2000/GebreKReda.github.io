@@ -42,50 +42,44 @@ nav ul li a:hover {
 }
 
 .home-container {
-    display: flex; /* Arrange image and text side by side */
-    align-items: flex-start; /* Align items to the top to avoid stretching vertically */
-    flex-wrap: wrap;
-    max-width: 100%; /* Use 100% of screen width */
-    margin-right: 250px; 
-    gap: 20px; /* Space between image and text */
+    display: flex;
+    align-items: center; /* Align items vertically in a row */
+    justify-content: space-between; /* Spread out the elements */
+    width: 100%;
+    max-width: 1200px; /* Adjust width for better spacing */
+    margin: auto; /* Center the whole section */
+    gap: 40px; /* Space between sections */
 }
 
 .image-container {
-    flex-shrink: 0; /* Prevent image from shrinking */
-    width: 250px; /* Set a fixed width */
+    flex-shrink: 0; /* Prevent shrinking */
+    width: 200px; /* Fixed size for profile photo */
 }
 
 .profile-photo {
-    width: 100%; /* Make image responsive within its container */
-    height: auto; /* Keep aspect ratio */
-    border-radius: 5px; /* Optional: Rounded edges */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .text-container {
-    flex: 1; /* Allow text container to expand and fill remaining space */
-    max-width: 100%;
+    flex-grow: 1; /* Allow text to take available space */
     text-align: justify;
+    font-size: 1.2rem;
     line-height: 1.5;
-    font-size: 1.5rem;
-    box-sizing: border-box;
-    margin-right: 0 5px; /* Add margin for spacing */
+    max-width: 600px; /* Prevent text from stretching too wide */
 }
 
 .additional-photos {
-    display: flex; /* Align the two additional photos horizontally */
+    display: flex;
     flex-direction: column; /* Stack photos vertically */
-    align-items: flex-start; /* Align items to the top */
-    gap: 20px; /* Space between the two images */
-    align-items: center;
-    justify-content: center; /* Center the additional photos horizontally */
-    margin: 0; /* Center horizontally */
-    width: 100%; /* Use 100% of screen width */
-    flex-wrap: wrap;
+    align-items: center; /* Center within the right section */
+    gap: 20px;
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 .photo-container {
-    width: 100px; /* Set the width of the additional photos */
-    flex-shrink: 0;
+    width: 100px; /* Set a fixed size */
 }
 
 .additional-photo {
@@ -93,6 +87,7 @@ nav ul li a:hover {
     height: auto;
     border-radius: 10px;
 }
+
 
 .publication-container {
     padding: 50px 20px;
