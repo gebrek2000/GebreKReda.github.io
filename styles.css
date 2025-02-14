@@ -47,7 +47,7 @@ nav ul li a:hover {
     align-items: center; /* Align them properly */
     max-width: 100%; /* Use 90% of screen width */
     margin: auto; /* Center horizontally */
-    gap: 40px; /* Space between image and text */
+    gap: 20px; /* Space between image and text */
 }
 
 .image-container {
@@ -58,14 +58,14 @@ nav ul li a:hover {
 .profile-photo {
     width: 100%; /* Make image responsive within its container */
     height: auto; /* Keep aspect ratio */
-    border-radius: 10px; /* Optional: Rounded edges */
+    border-radius: 20px; /* Optional: Rounded edges */
 }
 
 .text-container {
     flex: 1; /* Let text take all remaining space */
     max-width: calc(100% - 200px);
     text-align: justify;
-    font-size: 50px; /* Adjust text size */
+    font-size: 100px; /* Adjust text size */
     line-height: 1.5;
     font-size: 1rem;
 }
