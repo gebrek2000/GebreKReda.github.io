@@ -44,7 +44,7 @@ nav ul li a:hover {
 .home-container {
     display: flex; /* Align image and text side by side */
     align-items: center; /* Vertically center the items */
-    gap: 20px; /* Space between image and text */
+    gap: 50px; /* Space between image and text */
     max-width: 1000px; /* Optional: Adjust width */
     margin: auto; /* Center in page */
 }
@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 .text-container {
-    flex: 4; /* Allow text to take more space */
+    flex: 3; /* Allow text to take more space */
     text-align: justify;
     line-height: 1.5; /* Improve readability */
 }
