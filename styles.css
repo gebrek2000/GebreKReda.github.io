@@ -51,11 +51,6 @@ nav ul li a:hover {
     align-items: flex-start; 
 }
 
-/* Example: If the navbar is 60px tall */
-.content {
-    margin-top: 60px; /* Push content down */
-}
-
 .home-container {
     display: flex;
     align-items: center; 
