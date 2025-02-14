@@ -48,7 +48,7 @@ nav ul li a:hover {
 }
 
 .Profile {
-    width: 10px !important;   /* Adjust width as needed */
+   max-width: 10px !important;   /* Adjust width as needed */
     height: auto;   /* Keeps the aspect ratio */
     border-radius: 10px; /* Optional: Adds rounded corners */
 }
