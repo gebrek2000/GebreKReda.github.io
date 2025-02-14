@@ -76,10 +76,11 @@ nav ul li a:hover {
     margin-top: 10px; /* Space between the profile section and the additional photos */
     align-items: center;
     margin: auto; /* Center horizontally */
+    max-width: 100%; /* Use 100% of screen width */
 }
 
 .photo-container {
-    width: 150px; /* Set the width of the additional photos */
+    width: 120px; /* Set the width of the additional photos */
     flex-shrink: 0;
 }
 
