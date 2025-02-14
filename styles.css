@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 .image-container {
     flex-shrink: 0; /* Prevent image from shrinking */
-    width: 250px; /* Set a fixed width */
+    width: 150px; /* Set a fixed width */
 }
 
 .profile-photo {
