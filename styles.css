@@ -115,6 +115,7 @@ nav ul li a:hover {
     color: white; 
     padding: 50px; 
     text-align: center; 
+    margin: auto;
 }
 
 .outreach-container {
