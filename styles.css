@@ -73,8 +73,9 @@ nav ul li a:hover {
 
 .additional-photos {
     display: flex; /* Align the two additional photos horizontally */
+    flex-direction: column; /* Stack photos vertically */
+    align-items: flex-start; /* Align items to the top */
     gap: 20px; /* Space between the two images */
-    margin-top: 1px; /* Space between the profile section and the additional photos */
     align-items: center;
     justify-content: center; /* Center the additional photos horizontally */
     margin: 0; /* Center horizontally */
