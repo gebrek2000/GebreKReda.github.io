@@ -42,22 +42,30 @@ nav ul li a:hover {
 }
 
 .home-container {
-    display: flex;         /* Aligns items in a row */
-    align-items: center;   /* Centers items vertically */
-    gap: 20px;            /* Adds space between image and text */
+    display: flex; /* Align image and text side by side */
+    align-items: center; /* Vertically center the items */
+    gap: 20px; /* Space between image and text */
+    max-width: 1000px; /* Optional: Adjust width */
+    margin: auto; /* Center in page */
 }
 
-.Profile {
-   max-width: 10px !important;   /* Adjust width as needed */
-    height: auto;   /* Keeps the aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
+.image-container {
+    flex: 1; /* Give image a flexible width */
+    max-width: 200px; /* Limit the image size */
 }
 
-.home-container p {
+.profile-photo {
+    width: 100%; /* Make it responsive */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 10px; /* Optional: Rounded edges */
+}
+
+.text-container {
+    flex: 2; /* Allow text to take more space */
     text-align: justify;
-    line-height: 1.5;
-    flex: 1; /* Allows text to take the remaining space */
+    line-height: 1.5; /* Improve readability */
 }
+
 
 /* Add spacing for content */
 section {
