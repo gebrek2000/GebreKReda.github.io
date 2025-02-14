@@ -96,8 +96,8 @@ nav ul li a:hover {
 .publication-container {
     padding: 50px 20px;
     max-width: 200%;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .journal-logos {
     display: flex;
