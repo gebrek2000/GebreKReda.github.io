@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 .text-container {
-    flex-grow: 1; /* Allow text container to expand and fill remaining space */
+    flex: 1; /* Allow text container to expand and fill remaining space */
     max-width: 100%;
     text-align: justify;
     line-height: 1.5;
