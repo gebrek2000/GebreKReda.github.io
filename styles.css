@@ -9,7 +9,7 @@ body {
 nav {
     background-color: #F08080;
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .highlight-name {
@@ -44,7 +44,7 @@ nav ul li a:hover {
 .home-container {
     display: flex; /* Arrange image and text side by side */
     align-items: center; /* Align them properly */
-    max-width: 90%; /* Use 90% of screen width */
+    max-width: 100%; /* Use 90% of screen width */
     margin: auto; /* Center horizontally */
     gap: 40px; /* Space between image and text */
 }
@@ -63,7 +63,7 @@ nav ul li a:hover {
 .text-container {
     flex: 1; /* Let text take all remaining space */
     text-align: justify;
-    font-size: 18px; /* Adjust text size */
+    font-size: 50px; /* Adjust text size */
     line-height: 1.5;
     font-size: 1rem;
 }
