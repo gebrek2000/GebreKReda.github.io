@@ -1,7 +1,7 @@
 body {
     font-family: Calibri, sans-serif;
     margin: 0;
-    padding-top: 70px;
+    padding-top: 0px;
 }
 
 nav {
@@ -59,6 +59,8 @@ nav ul li a:hover {
     max-width: 1200px; 
     margin: auto; 
     gap: 40px; 
+    position: relative; /* Ensures it's below the navbar */
+    z-index: 1; /* Lower than navbar */
 }
 
 .image-container {
