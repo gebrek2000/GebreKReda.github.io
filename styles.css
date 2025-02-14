@@ -94,7 +94,47 @@ nav ul li a:hover {
     max-width: 200%;
     margin-left: 350px;
     margin-right: 350px;
+    text-align: justify;
 }
+
+
+.research-container {
+    padding: 50px 20px;
+    max-width: 200%;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+
+.outreach-container {
+    padding: 50px 20px;
+    max-width: 200%;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+.cv-container {
+    padding: 50px 20px;
+    max-width: 200%;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: justify;
+}
+
+.gallery-container {
+    padding: 50px 20px;
+    max-width: 200%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contact-container {
+    padding: 50px 20px;
+    max-width: 200%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 .journal-logos {
     display: flex;
     justify-content: center;  /* Centers images */
