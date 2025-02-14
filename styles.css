@@ -107,6 +107,16 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
+.research-background {
+    background-image: url('gene_expression.PNG'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    padding: 50px; 
+    text-align: center; 
+}
+
 .outreach-container {
     padding: 50px 20px;
     max-width: 100%;
