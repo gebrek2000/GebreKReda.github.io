@@ -7,13 +7,13 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #F08080;
+    background-color: #FF00FF;
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .highlight-name {
-    color: #FF00FF;  /* Change to any color you prefer */
+    color: #F08080;  /* Change to any color you prefer */
     font-weight: bold; /* Makes the text bold */
 }
 
