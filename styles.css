@@ -93,11 +93,10 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-/* Add spacing for content */
 .publication-container {
     padding: 50px 20px;
     max-width: 200%;
-    margin: 0 100px;
+    margin: auto;
 }
 .journal-logos {
     display: flex;
