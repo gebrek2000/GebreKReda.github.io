@@ -7,13 +7,13 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #FF00FF;
+    background-color: #F08080;
     width: 100%;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .highlight-name {
-    color: #F08080;  /* Change to any color you prefer */
+    color: #00FF00;  /* Change to any color you prefer */
     font-weight: bold; /* Makes the text bold */
 }
 
@@ -32,7 +32,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     padding: 10px;
 }
 
