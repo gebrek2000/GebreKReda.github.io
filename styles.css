@@ -58,14 +58,14 @@ nav ul li a:hover {
 .profile-photo {
     width: 100%; /* Make image responsive within its container */
     height: auto; /* Keep aspect ratio */
-    border-radius: 20px; /* Optional: Rounded edges */
+    border-radius: 5px; /* Optional: Rounded edges */
 }
 
 .text-container {
     flex: 1; /* Let text take all remaining space */
     max-width: calc(100% - 200px);
     text-align: justify;
-    font-size: 100px; /* Adjust text size */
+    font-size: 50px; /* Adjust text size */
     line-height: 1.5;
     font-size: 1rem;
 }
