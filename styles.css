@@ -1,6 +1,6 @@
 /* General Page Styling */
 body {
-    font-family: Verdana, sans-serif;
+    font-family: Calibri, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ nav {
 }
 
 .highlight-name {
-    color: #6495ED;  /* Change to any color you prefer */
+    color: #00FF00;  /* Change to any color you prefer */
     font-weight: bold; /* Makes the text bold */
 }
 
