@@ -97,7 +97,7 @@ nav ul li a:hover {
 section {
     padding: 50px 20px;
     max-width: 100%;
-    margin: 0;
+    margin: 50;
 }
 .journal-logos {
     display: flex;
