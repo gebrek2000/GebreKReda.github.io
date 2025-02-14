@@ -75,10 +75,11 @@ nav ul li a:hover {
     gap: 20px; /* Space between the two images */
     margin-top: 10px; /* Space between the profile section and the additional photos */
     align-items: center;
+     margin: auto; /* Center horizontally */
 }
 
 .photo-container {
-    width: 200px; /* Set the width of the additional photos */
+    width: 150px; /* Set the width of the additional photos */
     flex-shrink: 0;
 }
 
