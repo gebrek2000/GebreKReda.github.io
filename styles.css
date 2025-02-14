@@ -44,9 +44,9 @@ nav ul li a:hover {
 .home-container {
     display: flex; /* Align items in a row */
     align-items: center; /* Vertically align */
-    justify-content: space-between; /* Spread them out */
+    justify-content: center; /* Spread them out */
     gap: 20px; /* Space between image and text */
-    max-width: 1200px; /* Increase width to extend text */
+    max-width: 1000px; /* Increase width to extend text */
     margin: auto; /* Center horizontally */
     padding: 20px;
 }
@@ -57,7 +57,7 @@ nav ul li a:hover {
 }
 
 .profile-photo {
-    width: 200%; /* Make image responsive within its container */
+    width: 100%; /* Make image responsive within its container */
     height: auto; /* Keep aspect ratio */
     border-radius: 10px; /* Optional: Rounded edges */
 }
