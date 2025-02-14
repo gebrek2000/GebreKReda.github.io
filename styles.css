@@ -44,16 +44,16 @@ nav ul li a:hover {
 .home-container {
     display: flex; /* Align items in a row */
     align-items: center; /* Vertically align */
-    justify-content: center; /* Center content */
+    justify-content: space-between; /* Spread them out */
     gap: 20px; /* Space between image and text */
-    max-width: 1000px; /* Adjust width */
+    max-width: 1200px; /* Increase width to extend text */
     margin: auto; /* Center horizontally */
     padding: 20px;
 }
 
 .image-container {
     flex-shrink: 0; /* Prevent image from shrinking */
-    width: 250px; /* Set a fixed width */
+    width: 350px; /* Set a fixed width */
 }
 
 .profile-photo {
@@ -94,7 +94,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     z-index: 1000;
 }
 
