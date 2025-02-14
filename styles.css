@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 .profile-photo {
-    width: 200%; /* Make image responsive within its container */
+    width: 100%; /* Make image responsive within its container */
     height: auto; /* Keep aspect ratio */
     border-radius: 10px; /* Optional: Rounded edges */
 }
