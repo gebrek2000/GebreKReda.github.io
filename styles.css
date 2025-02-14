@@ -61,7 +61,7 @@ nav ul li a:hover {
 }
 
 .text-container {
-    flex: 2; /* Allow text to take more space */
+    flex: 4; /* Allow text to take more space */
     text-align: justify;
     line-height: 1.5; /* Improve readability */
 }
