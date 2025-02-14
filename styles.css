@@ -42,31 +42,31 @@ nav ul li a:hover {
 }
 
 .home-container {
-    display: flex; /* Align image and text side by side */
-    align-items: center; /* Vertically center the items */
-    gap: 50px; /* Space between image and text */
-    max-width: 500px; /* Optional: Adjust width */
-    margin: auto; /* Center in page */
+    display: flex; /* Align items in a row */
+    align-items: center; /* Vertically align */
+    justify-content: center; /* Center content */
+    gap: 20px; /* Space between image and text */
+    max-width: 1000px; /* Adjust width */
+    margin: auto; /* Center horizontally */
+    padding: 20px;
 }
 
 .image-container {
-    flex: 1; /* Give image a flexible width */
-    max-width: 200px; /* Limit the image size */
-    align-items: left;
+    flex-shrink: 0; /* Prevent image from shrinking */
+    width: 250px; /* Set a fixed width */
 }
 
 .profile-photo {
-    width: 200%; /* Make it responsive */
+    width: 100%; /* Make image responsive within its container */
     height: auto; /* Keep aspect ratio */
     border-radius: 10px; /* Optional: Rounded edges */
 }
 
 .text-container {
-    flex: 3; /* Allow text to take more space */
+    flex: 1; /* Allow text to take remaining space */
     text-align: justify;
-    line-height: 1.5; /* Improve readability */
+    line-height: 1.5;
 }
-
 
 /* Add spacing for content */
 section {
