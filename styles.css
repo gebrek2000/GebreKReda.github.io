@@ -70,6 +70,23 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
+.additional-photos {
+    display: flex; /* Align the two additional photos horizontally */
+    gap: 20px; /* Space between the two images */
+    margin-top: 20px; /* Space between the profile section and the additional photos */
+}
+
+.photo-container {
+    width: 100px; /* Set the width of the additional photos */
+    flex-shrink: 0;
+}
+
+.additional-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* Add spacing for content */
 section {
     padding: 50px 20px;
