@@ -45,13 +45,14 @@ nav ul li a:hover {
     display: flex; /* Align image and text side by side */
     align-items: center; /* Vertically center the items */
     gap: 50px; /* Space between image and text */
-    max-width: 1000px; /* Optional: Adjust width */
+    max-width: 500px; /* Optional: Adjust width */
     margin: auto; /* Center in page */
 }
 
 .image-container {
     flex: 1; /* Give image a flexible width */
     max-width: 200px; /* Limit the image size */
+    align-items: left;
 }
 
 .profile-photo {
