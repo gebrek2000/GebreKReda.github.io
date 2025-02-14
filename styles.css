@@ -44,9 +44,9 @@ nav ul li a:hover {
 .home-container {
     display: flex; /* Align items in a row */
     align-items: center; /* Vertically align */
-    justify-content: center; /* Spread them out */
+    justify-content: space-between; /* Spread them out */
     gap: 20px; /* Space between image and text */
-    max-width: 1000px; /* Increase width to extend text */
+    max-width: 1200px; /* Increase width to extend text */
     margin: auto; /* Center horizontally */
     padding: 20px;
 }
@@ -94,7 +94,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 50%;
+    width: 100%;
     z-index: 1000;
 }
 
