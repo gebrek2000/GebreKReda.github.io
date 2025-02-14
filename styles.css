@@ -95,18 +95,12 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 500;
 }
 
 /* Add Padding to Body to Avoid Overlapping */
 body {
     padding-bottom: 60px; /* Ensure content does not overlap footer */
-}
-
-p {
-    font-size: 1rem;
-    text-align: justify;  /* Justifies the text */
-    line-height: 1.5;    /* Sets the line spacing to 1.5 */
 }
 
 /* Social Media Icons Styling */
