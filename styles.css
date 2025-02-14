@@ -145,7 +145,7 @@ nav ul li a:hover {
 .research-container p {
     font-size: 1.5rem;
     max-width: 800px;
-    background: rgba(0, 255, 0, 0.5); 
+    background: rgba(0, 255, 0, 1); 
     padding: 20px;
     border-radius: 10px;
 }
