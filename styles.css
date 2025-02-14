@@ -43,8 +43,8 @@ nav ul li a:hover {
 
 .home-container {
     display: flex; /* Arrange image and text side by side */
+    align-items: flex-start; /* Align items to the top to avoid stretching vertically */
     flex-wrap: wrap;
-    align-items: center; /* Align them properly */
     max-width: 100%; /* Use 90% of screen width */
     margin: auto; /* Center horizontally */
     gap: 20px; /* Space between image and text */
@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 .text-container {
-    flex: 1; /* Let text take all remaining space */
+    flex: 2; /* Let text take all remaining space */
     max-width: calc(100% - 200px);
     text-align: justify;
     font-size: 50px; /* Adjust text size */
