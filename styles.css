@@ -53,7 +53,7 @@ nav ul li a:hover {
 
 .image-container {
     flex-shrink: 0; /* Prevent shrinking */
-    width: 200px; /* Fixed size for profile photo */
+    width: 300px; /* Fixed size for profile photo */
 }
 
 .profile-photo {
@@ -67,7 +67,7 @@ nav ul li a:hover {
     text-align: justify;
     font-size: 1.2rem;
     line-height: 1.5;
-    max-width: 600px; /* Prevent text from stretching too wide */
+    max-width: 800px; /* Prevent text from stretching too wide */
 }
 
 .additional-photos {
