@@ -46,7 +46,7 @@ nav ul li a:hover {
     align-items: flex-start; /* Align items to the top to avoid stretching vertically */
     flex-wrap: wrap;
     max-width: 100%; /* Use 90% of screen width */
-    margin: auto; /* Center horizontally */
+    margin: 0; /* Center horizontally */
     gap: 20px; /* Space between image and text */
 }
 
@@ -76,7 +76,7 @@ nav ul li a:hover {
     gap: 20px; /* Space between the two images */
     margin-top: 3px; /* Space between the profile section and the additional photos */
     align-items: center;
-    margin: auto; /* Center horizontally */
+    margin: 0; /* Center horizontally */
     max-width: 100%; /* Use 100% of screen width */
     flex-wrap: wrap;
 }
