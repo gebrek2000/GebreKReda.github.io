@@ -144,7 +144,7 @@ nav ul li a:hover {
 }
 
 .research-container {
-   position: relative;
+   position: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -177,7 +177,7 @@ nav ul li a:hover {
 .research-container p {
     font-size: 1rem;
     max-width: 800px;
-    background: rgba(0, 255, 0, 0.3); 
+    background: rgba(0, 0, 0, 0.3); 
     padding: 10px;
     border-radius: 10px;
     text-align: justify;
