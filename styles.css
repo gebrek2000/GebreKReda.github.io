@@ -136,39 +136,17 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-/* publication setups */
-.publication-container {
-    padding: 50px 20px;
-    max-width: 100%;
-    margin-left: 350px;
-    margin-right: 350px;
-    text-align: justify;
-}
-
-.journal-logos {
-    display: flex;
-    justify-content: center; 
-    gap: 20px; 
-    margin-bottom: 20px;  
-}
-
-.journal-img {
-    width: 150px;  
-    height: auto;  
-}
-
+/* research setups */
 .research-container {
-    position: fixed;
+     display: flex;
+    align-items: center; 
+    justify-content: space-between; 
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    color: black; 
-    z-index: 999;
-    margin-left: 200px;
-    margin-right: 200px;
+    max-width: 1200px; 
+    margin: auto; 
+    gap: 40px; 
+    position: relative; /* Ensures it's below the navbar */
+    z-index: 1; /* Lower than navbar */
 }
 
 .research-background {
@@ -191,11 +169,32 @@ nav ul li a:hover {
 
 .research-container p {
     font-size: 1rem;
-    max-width: 800px;
-    background: rgba(0, 255, 0, 0.5); 
+    max-width: 100%;
+    background: rgba(0, 255, 0, 0.3); 
     padding: 10px;
     border-radius: 10px;
     text-align: justify;
+}
+
+/* publication setups */
+.publication-container {
+    padding: 50px 20px;
+    max-width: 100%;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: justify;
+}
+
+.journal-logos {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-bottom: 20px;  
+}
+
+.journal-img {
+    width: 150px;  
+    height: auto;  
 }
 
 .outreach-container {
