@@ -138,15 +138,11 @@ nav ul li a:hover {
 
 /* research setups */
 .research-container {
-     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%;
-    max-width: 1200px; 
-    margin: auto; 
-    gap: 40px; 
-    position: relative; /* Ensures it's below the navbar */
-    z-index: 1; /* Lower than navbar */
+    padding: 50px 20px;
+    max-width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
 }
 
 .research-background {
