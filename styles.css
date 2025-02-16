@@ -352,6 +352,12 @@ header {
     justify-content: space-between; 
 }
 
+.contac=img-container {
+    flex-shrink: 0; 
+    margin-top: 50px;
+    width: 20px;
+}
+
 .mail-img {
     width: 50px;  
     height: 20;  
