@@ -142,7 +142,19 @@ header {
 }
 
 /* research setups */
-.research-container {
+.research-container1 {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto; 
+    gap: 40px; 
+    position: relative; /* Ensures it's below the navbar */
+    z-index: 1; /* Lower than navbar */
+}
+
+.research-container2 {
     display: flex;
     align-items: center; 
     justify-content: space-between; 
