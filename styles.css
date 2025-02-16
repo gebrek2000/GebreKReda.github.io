@@ -137,7 +137,7 @@ header {
     font-size: 1.2rem;
     max-width: 800px;
     background: rgba(0, 255, 0, 0.3); 
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -161,7 +161,7 @@ header {
     width: 100%;
     max-width: 1200px; 
     margin: auto; 
-    gap: 40px; 
+    gap: 30px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
 }
@@ -177,7 +177,7 @@ header {
 
 .allocation-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 400px; 
 }
 
 
