@@ -356,16 +356,19 @@ header {
     flex-shrink: 20; 
     margin-top: 50px;
     width: 10px;
+    align-items: center;
 }
 
 .mail-img {
-     width: 40px;
-    height: 40px; 
+     width: 50px;
+    height: 50px; 
+    align-items: center;
 }
 
 .map-img {
-     width: 40px;
-    height: 40px; 
+     width: 70px;
+    height: 70px; 
+    align-items: center;
 }
 
 footer {
