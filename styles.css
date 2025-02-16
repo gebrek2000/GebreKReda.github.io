@@ -199,6 +199,14 @@ header {
     border-radius: 10px;
 }
 
+.text1-container {
+    flex-grow: 1; 
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px; 
+}
+
 .mtor_pathway-container {
     flex-shrink: 0; 
     width: 300px; 
@@ -241,6 +249,14 @@ header {
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.text2-container {
+    flex-grow: 1; 
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px; 
 }
 
 /* publication setups */
