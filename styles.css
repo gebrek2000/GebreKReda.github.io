@@ -206,7 +206,7 @@ header {
 
 .wild_quail-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 100px; 
 }
 
 .wild_quail-photo {
@@ -225,7 +225,8 @@ header {
 
 .mtor_pathway-container {
     flex-shrink: 0; 
-    width: 100px; 
+    width: 200px;
+    margin-top: 50px;
 }
 
 .mtor_pathway-photo {
