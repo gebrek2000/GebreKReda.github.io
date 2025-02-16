@@ -46,6 +46,11 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+header {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .parent-container {
     display: flex;
     flex-direction: column;
@@ -164,12 +169,23 @@ nav ul li a:hover {
 }
 
 .research-container p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     max-width: 800px;
     background: rgba(0, 255, 0, 0.1); 
     padding: 20px;
     border-radius: 10px;
     margin-top: -10px;
+}
+
+.image-container {
+    flex-shrink: 0; 
+    width: 300px; 
+}
+
+.allocation-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* publication setups */
