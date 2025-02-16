@@ -229,12 +229,9 @@ header {
 }
 
 .mtor_pathway-photo {
-   display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    gap: 20px;
-    flex-shrink: 0; 
+    width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .biplot2-container {
@@ -266,12 +263,12 @@ header {
     border-radius: 10px;
 }
 
-.mtor_mediate-container {
+.egg-container {
     flex-shrink: 0; 
     width: 300px; 
 }
 
-.mtor_mediate-photo {
+.egg-photo {
     width: 100%;
     height: auto;
     border-radius: 10px;
