@@ -166,24 +166,6 @@ header {
     z-index: 1; /* Lower than navbar */
 }
 
-.research-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1; 
-}
-
-.research-background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    filter: blur(5px);
-    opacity: 0.1; 
-}
-
 .research-container p {
     font-size: 1rem;
     max-width: 800px;
@@ -195,12 +177,12 @@ header {
 
 .allocation-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 250px; 
 }
 
 .allocation-photo {
     width: 100%;
-    height: 50%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -211,7 +193,7 @@ header {
 
 .wild_quail-photo {
     width: 100%;
-    height: 50%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -281,6 +263,25 @@ header {
     font-size: 1.2rem;
     line-height: 1.5;
     max-width: 800px; 
+}
+
+
+.research-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+.research-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: blur(5px);
+    opacity: 0.1; 
 }
 
 /* publication setups */
