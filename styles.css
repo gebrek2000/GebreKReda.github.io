@@ -185,10 +185,11 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    margin-bottom: 20px; 
 }
 
 .allocation-result-photo {
-    width: 100%;
+    width: 80%;
     height: 100%;
     border-radius: 10px;
 }
@@ -199,7 +200,7 @@ header {
 }
 
 .wild_quail-photo {
-    width: 100%;
+    width: 90%;
     height: 50%;
     border-radius: 10px;
 }
@@ -237,7 +238,7 @@ header {
 }
 
 .biplot2-photo {
-    width: 100%;
+    width: 90%;
     height: 90%;
     border-radius: 10px;
 }
