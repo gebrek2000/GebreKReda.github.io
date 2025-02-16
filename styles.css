@@ -147,9 +147,9 @@ header {
     align-items: center; 
     justify-content: space-between; 
     width: 100%;
-    max-width: 1600px; 
+    max-width: 1200px; 
     margin: auto; 
-    gap: 40px; 
+    gap: 10px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
 }
