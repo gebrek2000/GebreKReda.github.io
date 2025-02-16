@@ -188,7 +188,7 @@ header {
 }
 
 .allocation-result-photo {
-    width: 50%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
 }
@@ -212,12 +212,6 @@ header {
     max-width: 1000px; 
 }
 
-.mtor_pathway-container {
-    flex-shrink: 0; 
-    margin-top: 50px;
-    width: 300px;
-}
-
 .mtor-photo {
     width: 100%;
     height: 50%;
@@ -225,11 +219,16 @@ header {
     margin-bottom: 15px;
 }
 
+.mtor_pathway-container {
+    flex-shrink: 0; 
+    margin-top: 50px;
+    width: 300px;
+}
+
 .mtor_pathway-photo {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     border-radius: 10px;
-    margin-bottom: 15px;
 }
 
 .biplot2-container {
