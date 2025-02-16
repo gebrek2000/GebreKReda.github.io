@@ -143,11 +143,15 @@ header {
 
 /* research setups */
 .research-container {
-    padding: 50px 20px;
-    max-width: 100%;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: justify;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto; 
+    gap: 40px; 
+    position: relative; /* Ensures it's below the navbar */
+    z-index: 1; /* Lower than navbar */
 }
 
 .research-background {
