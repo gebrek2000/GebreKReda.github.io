@@ -177,12 +177,67 @@ header {
     margin-top: -10px;
 }
 
-.image-container {
+.allocation-container {
     flex-shrink: 0; 
     width: 300px; 
 }
 
 .allocation-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.wild_quail-container {
+    flex-shrink: 0; 
+    width: 300px; 
+}
+
+.wild_quail-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mtor_pathway-container {
+    flex-shrink: 0; 
+    width: 300px; 
+}
+
+.mtor_pathway-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.biplot2-container {
+    flex-shrink: 0; 
+    width: 300px; 
+}
+
+.biplot2-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.barplot2-container {
+    flex-shrink: 0; 
+    width: 300px; 
+}
+
+.barplot2-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.mtor_mediate-container {
+    flex-shrink: 0; 
+    width: 300px; 
+}
+
+.mtor_mediate-photo {
     width: 100%;
     height: auto;
     border-radius: 10px;
