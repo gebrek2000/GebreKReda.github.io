@@ -200,7 +200,7 @@ header {
 
 .allocation-photo {
     width: 100%;
-    height: auto;
+    height: 50%;
     border-radius: 10px;
 }
 
@@ -211,7 +211,7 @@ header {
 
 .wild_quail-photo {
     width: 100%;
-    height: auto;
+    height: 50%;
     border-radius: 10px;
 }
 
@@ -234,6 +234,7 @@ header {
     align-items: center; 
     gap: 20px;
     flex-shrink: 0; 
+    height: auto;
 }
 
 .biplot2-container {
