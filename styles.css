@@ -147,7 +147,7 @@ header {
     align-items: center; 
     justify-content: space-between; 
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1600px; 
     margin: auto; 
     gap: 40px; 
     position: relative; /* Ensures it's below the navbar */
@@ -359,13 +359,13 @@ header {
 }
 
 .mail-img {
-     width: 28px;
-    height: 28px; 
+     width: 40px;
+    height: 40px; 
 }
 
 .map-img {
-     width: 28px;
-    height: 28px; 
+     width: 40px;
+    height: 40px; 
 }
 
 footer {
