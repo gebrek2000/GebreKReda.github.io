@@ -202,12 +202,12 @@ header {
     text-align: justify;
     font-size: 1.2rem;
     line-height: 1.5;
-    max-width: 800px; 
+    max-width: 1000px; 
 }
 
 .mtor_pathway-container {
     flex-shrink: 0; 
-    width: 300px;
+    width: 250px;
     margin-top: 50px;
 }
 
@@ -219,7 +219,7 @@ header {
 
 .biplot2-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 250px; 
 }
 
 .biplot2-photo {
