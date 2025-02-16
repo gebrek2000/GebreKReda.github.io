@@ -231,7 +231,7 @@ header {
 
 .mtor_pathway-photo {
     width: 100%;
-    height: 90%;
+    height: 50%;
     border-radius: 10px;
 }
 
@@ -241,7 +241,7 @@ header {
 }
 
 .biplot2-photo {
-    width: 90%;
+    width: 100%;
     height: 90%;
     border-radius: 10px;
 }
