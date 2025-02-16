@@ -225,13 +225,13 @@ header {
 
 .mtor_pathway-container {
     flex-shrink: 0; 
-    width: 200px;
+    width: 300px;
     margin-top: 50px;
 }
 
 .mtor_pathway-photo {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -241,8 +241,8 @@ header {
 }
 
 .biplot2-photo {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 90%;
     border-radius: 10px;
 }
 
@@ -270,8 +270,8 @@ header {
 }
 
 .egg-photo {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
