@@ -286,9 +286,37 @@ header {
 
 .gallery-container {
     display: flex;
-    padding: 50px 20px;
-    max-width: 100%;
-    margin: 0px;
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0;
+}
+
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.image-box img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    display: block;
+}
+
+.image-box .caption {
+    position: absolute;
+    bottom: 10px; /* Adjust position inside the image */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%; /* Adjust width */
+    border-radius: 5px;
+}
+
 }
 .contact-container {
     display: flex;
