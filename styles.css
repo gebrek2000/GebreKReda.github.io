@@ -143,15 +143,15 @@ header {
 
 /* research setups */
 .research-container1 {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%;
-    max-width: 1200px; 
-    margin: auto; 
-    gap: 20px; 
-    position: relative; /* Ensures it's below the navbar */
-    z-index: 1; /* Lower than navbar */
+    d display: flex;
+    align-items: flex-start;  /* Use 'flex-start' instead of 'top' */
+    justify-content: space-between;
+    width: 100%;  /* Ensure it fills the entire width */
+    gap: 10px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .research-container2 {
