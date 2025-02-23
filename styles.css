@@ -330,6 +330,9 @@ header {
     }
 }
 
+.image-box.collogn img {
+    height: 300px;
+}
 
 .contact-container {
     display: flex;
