@@ -143,7 +143,7 @@ header {
 
 /* research setups */
 .research-container1 {
-    d display: flex;
+    display: flex;
     align-items: flex-start;  /* Use 'flex-start' instead of 'top' */
     justify-content: space-between;
     width: 100%;  /* Ensure it fills the entire width */
