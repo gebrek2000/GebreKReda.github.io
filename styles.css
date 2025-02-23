@@ -151,7 +151,6 @@ header {
     gap: 40px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
-    padding-bottom: 0px;
     margin: auto;
 }
 
@@ -164,7 +163,7 @@ header {
     gap: 30px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
-    padding-top: 0px;
+    padding-top: 10px;
     margin-top: 0px;
 }
 
