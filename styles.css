@@ -159,7 +159,7 @@ header {
     align-items: center; 
     justify-content: space-between; 
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1300px; 
     margin: auto; 
     gap: 20px; 
     position: relative; /* Ensures it's below the navbar */
@@ -168,7 +168,7 @@ header {
 
 .allocation-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 350px; 
 }
 
 .allocation-photo {
@@ -204,12 +204,12 @@ header {
 
 .mtor-container {
     flex-shrink: 0; 
-    width: 250px;  
+    width: 350px;  
 }
 
 .barplot-container {
     flex-shrink: 0; 
-    width: 250px;  
+    width: 350px;  
 }
 
 .barplot-photo {
