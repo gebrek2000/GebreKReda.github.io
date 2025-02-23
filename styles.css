@@ -330,10 +330,6 @@ header {
     }
 }
 
-.image-box.collogn img {
-    height: 150px;
-}
-
 .contact-container {
     display: flex;
     padding: 50px 20px;
