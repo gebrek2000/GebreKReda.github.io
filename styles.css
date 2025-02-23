@@ -306,7 +306,7 @@ header {
 .image-box .caption {
     position: absolute;
     top: 0px;
-    left: 0%;
+    left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0);
     color: white;
