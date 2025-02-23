@@ -291,18 +291,18 @@ header {
     margin: 20px 0;
 }
 
-.image-box {
+.image-box1 {
     position: relative;
     display: inline-block;
 }
 
-.image-box img {
+.image-box1 img {
     width: 200px; /* Adjust as needed */
     height: auto;
     display: block;
 }
 
-.image-box .caption {
+.image-box1 .caption {
     position: absolute;
     bottom: 10px; /* Adjust position inside the image */
     left: 50%;
@@ -317,7 +317,6 @@ header {
     border-radius: 5px;
 }
 
-}
 .contact-container {
     display: flex;
     padding: 50px 20px;
