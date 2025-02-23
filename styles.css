@@ -285,6 +285,7 @@ header {
 }
 
 .gallery-container {
+    display: flex;
     padding: 50px 20px;
     max-width: 100%;
     margin: 0px;
