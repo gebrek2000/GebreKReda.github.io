@@ -147,7 +147,7 @@ header {
     align-items: top; 
     justify-content: space-between; 
     width: 100%;
-    max-width: 1300px; 
+    max-width: 1200px; 
     gap: 10px; 
     position: relative; 
     z-index: 1; 
@@ -160,7 +160,7 @@ header {
     align-items: top; 
     justify-content: space-between; 
     width: 100%;
-    max-width: 1300px; 
+    max-width: 1200px; 
     gap: 10px; 
     position: relative; 
     z-index: 1; 
@@ -168,18 +168,27 @@ header {
     margin-top: -20px;
 }
 
-.research-container p {
+.research-container1 p {
     font-size: 1rem;
     max-width: 800px;
     background: rgba(0, 255, 0, 0.1); 
-    padding: 10px;
+    padding: 0px;
     border-radius: 10px;
-    margin-top: -10px;
+    margin-top: 0px;
+}
+
+.research-container2 p {
+    font-size: 1rem;
+    max-width: 800px;
+    background: rgba(0, 255, 0, 0.1); 
+    padding: 0px;
+    border-radius: 10px;
+    margin-top: 0px;
 }
 
 heading 2, p {
     margin-top: 0px;
-    margin-bottom: 5px;  
+    margin-bottom: 0px;  
 }
 
 .allocation-container {
@@ -235,7 +244,7 @@ heading 2, p {
 
 .mtor_pathway-container {
     flex-shrink: 0; 
-    margin-top: 50px;
+    margin-top: 20px;
     width: 400px;
      align-items: top;
 }
@@ -269,12 +278,12 @@ heading 2, p {
 
 .barplot2-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 400px; 
 }
 
 .barplot2-photo {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
 }
 
