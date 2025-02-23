@@ -330,6 +330,16 @@ header {
     }
 }
 
+/* Reduce height for specific images */
+.image-box.quails-talk img,
+.image-box.cologne-cathedral img,
+.image-box.hortobagy img,
+.image-box.paris img,
+.image-box.bowling-my-hobby img {
+    height: 150px; 
+    object-fit: cover; 
+}
+
 
 .contact-container {
     display: flex;
