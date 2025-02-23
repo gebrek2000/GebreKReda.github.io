@@ -142,162 +142,33 @@ header {
 }
 
 /* research setups */
-.research-container1 {
-    display: flex;
-    align-items: flex-start;  /* Use 'flex-start' instead of 'top' */
-    justify-content: space-between;
-    width: 100%;  /* Ensure it fills the entire width */
-    gap: 10px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 10px;
-    padding-bottom: 0px;
+.research-container1, .research-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.research-container2 {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%;
-    max-width: 1200px; 
-    margin: auto; 
-    gap: 20px; 
-    position: relative; /* Ensures it's below the navbar */
-    z-index: 1; /* Lower than navbar */
+.horizontal-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Adjust this for the minimum gap between containers */
+  width: 100%;
 }
 
-.research-container1 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    background: rgba(0, 255, 0, 0.1); 
-    padding: 10px;
-    border-radius: 10px;
+.photo-container1, .photo-container2, .photo-container3, .photo-container4 {
+  flex: 0 0 30%; /* This makes photos take up 30% of the space */
 }
 
-.research-container2 p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    background: rgba(0, 255, 0, 0.3); 
-    padding: 10px;
-    border-radius: 10px;
+.text-container1, .text-container2 {
+  flex: 1; /* This makes text containers take up the remaining space */
 }
 
-heading 2, p {
-    margin-top: 0px;
-    margin-bottom: 0px;  
-}
 
-.allocation-container {
-    flex-shrink: 0; 
-    width: 400px; 
-}
 
-.allocation-photo {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin-bottom: 5px; 
-    padding-bottom: 0px;
-}
 
-.allocation-result-photo {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
 
-.wild_quail-container {
-    flex-shrink: 0; 
-    width: 300px; 
-}
 
-.wild_quail-photo {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
 
-.text1-container {
-    flex-grow: 1; 
-    text-align: justify;
-    font-size: 1.2rem;
-    line-height: 1;
-    max-width: 800px; 
-}
-
-.mtor-photo {
-    width: 100%;
-    height: 50%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    padding-top: 0px
-    align-items: top;
-}
-
-.mtor_pathway-container {
-    flex-shrink: 0; 
-    margin-top: 20px;
-    width: 400px;
-     align-items: top;
-}
-
-.mtor_pathway-photo {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.biplot2-container {
-    flex-shrink: 0; 
-    width: 300px; 
-}
-
-.biplot2-photo {
-    width: 90%;
-    height: 90%;
-    border-radius: 10px;
-}
-
-.result-photo {
-    display: flex;
-    flex-direction: column; 
-    align-items: top; 
-    gap: 20px;
-    flex-shrink: 0; 
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-.barplot2-container {
-    flex-shrink: 0; 
-    width: 400px; 
-}
-
-.barplot2-photo {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.egg-container {
-    flex-shrink: 0; 
-    width: 300px; 
-}
-
-.egg-photo {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
-
-.text2-container {
-     flex-grow: 1; 
-    text-align: justify;
-    font-size: 1.2rem;
-    line-height: 1;
-    max-width: 800px; 
-}
 
 div {
     margin-bottom: 10px; /* Reduce space between divs */
