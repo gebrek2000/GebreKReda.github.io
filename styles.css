@@ -144,7 +144,7 @@ header {
 /* research setups */
 .research-container1 {
     display: flex;
-    align-items: top; 
+    align-items: flex-start; 
     justify-content: space-between; 
     width: 100%;
     gap: 10px; 
@@ -157,7 +157,7 @@ header {
 
 .research-container2 {
     display: flex;
-    align-items: top; 
+    align-items: flex-start; 
     justify-content: space-between; 
     width: 100%;
     gap: 10px; 
