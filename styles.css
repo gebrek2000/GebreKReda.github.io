@@ -306,15 +306,15 @@ header {
 .image-box .caption {
     position: absolute;
     top: 0px;
-    left: 50%;
+    left: 0%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0);
     color: white;
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
-    text-align: center;
-    width: 80%;
+    text-align: Left;
+    width: 100%;
     border-radius: 5px;
 }
 
