@@ -170,7 +170,7 @@ header {
 
 .research-container1 p {
     font-size: 1.2rem;
-    max-width: 800px;
+    max-width: 1200px;
     background: rgba(0, 255, 0, 0.1); 
     padding: 0px;
     border-radius: 10px;
@@ -179,7 +179,7 @@ header {
 
 .research-container2 p {
     font-size: 1.2rem;
-    max-width: 800px;
+    max-width: 1200px;
     background: rgba(0, 255, 0, 0.1); 
     padding: 0px;
     border-radius: 10px;
@@ -226,7 +226,7 @@ heading 2, p {
     text-align: justify;
     font-size: 1.2rem;
     line-height: 1;
-    max-width: 800px; 
+    max-width: 1200px; 
     padding-top: 0px;
     margin-top: 0px
     align-items: top;
@@ -303,7 +303,7 @@ heading 2, p {
     text-align: justify;
     font-size: 1.2rem;
     line-height: 1;
-    max-width: 800px; 
+    max-width: 1200px; 
     padding-top: 0px;
     margin-top: 5px;
      align-items: top;
