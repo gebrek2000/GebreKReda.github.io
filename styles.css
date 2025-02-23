@@ -148,7 +148,7 @@ header {
     justify-content: space-between; 
     width: 100%;
     max-width: 1200px; 
-    gap: 10px; 
+    gap: 40px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
     padding-bottom: 0px;
