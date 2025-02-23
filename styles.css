@@ -147,7 +147,7 @@ header {
     align-items: center; 
     justify-content: space-between; 
     width: 100%;
-    max-width: 1200px; 
+    max-width: 1300px; 
     margin: auto; 
     gap: 20px; 
     position: relative; /* Ensures it's below the navbar */
