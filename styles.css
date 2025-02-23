@@ -282,7 +282,7 @@ header {
     max-width: 90%; /* Adjust width */
     margin: auto;
     padding: 20px;
-    background-color: #f0fffa;
+    background-color: #f0fdff;
 }
 
 /* Make the last row contain 5 items */
@@ -313,7 +313,7 @@ header {
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
-    text-align: Left;
+    text-align: center;
     width: 100%;
     border-radius: 5px;
 }
