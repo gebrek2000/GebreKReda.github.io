@@ -168,7 +168,7 @@ header {
 
 .allocation-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 250px; 
 }
 
 .allocation-photo {
@@ -179,7 +179,7 @@ header {
 
 .quail-container {
     flex-shrink: 0; 
-    width: 300px; 
+    width: 250px; 
 }
 
 .quail-photo {
@@ -204,12 +204,12 @@ header {
 
 .mtor-container {
     flex-shrink: 0; 
-    width: 300px;  
+    width: 250px;  
 }
 
 .barplot-container {
     flex-shrink: 0; 
-    width: 300px;  
+    width: 250px;  
 }
 
 .barplot-photo {
