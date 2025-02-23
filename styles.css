@@ -66,7 +66,7 @@ header {
     width: 100%;
     max-width: 1200px; 
     margin: auto; 
-    gap: 40px; 
+    gap: 20px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
 }
@@ -329,12 +329,13 @@ header {
 }
 
 .cv-container {
-    padding: 50px 20px;
+    padding: 20px 20px;
     max-width: 100%;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: justify;
     font-size: 1.2rem;
+    margin-top: 20px;
 }
 
 .gallery-container {
