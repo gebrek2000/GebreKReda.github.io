@@ -265,15 +265,6 @@ header {
     height: auto;  
 }
 
-.outreach-container {
-    padding: 50px 20px;
-    max-width: 100%;
-    margin-left: 300px;
-    margin-right: 300px;
-    text-align: justify;
-    font-size: 1.2rem;
-}
-
 .cv-container {
     padding-top: 0px; 
     max-width: 100%;
