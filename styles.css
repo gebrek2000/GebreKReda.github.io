@@ -148,10 +148,10 @@ header {
     justify-content: space-between; 
     width: 100%;
     max-width: 1200px; 
-    margin: auto; 
     gap: 10px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
+    padding-bottom: 0px;
 }
 
 .research-container2 {
@@ -160,17 +160,18 @@ header {
     justify-content: space-between; 
     width: 100%;
     max-width: 1200px; 
-    margin: auto; 
     gap: 30px; 
     position: relative; /* Ensures it's below the navbar */
     z-index: 1; /* Lower than navbar */
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .research-container p {
     font-size: 1rem;
     max-width: 800px;
     background: rgba(0, 255, 0, 0.1); 
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     margin-top: -10px;
 }
@@ -185,6 +186,7 @@ header {
     height: 100%;
     border-radius: 10px;
     margin-bottom: 5px; 
+    padding-bottom: 0px;
 }
 
 .allocation-result-photo {
@@ -211,6 +213,7 @@ header {
     line-height: 1.5;
     max-width: 1200px; 
     padding-top: 0px;
+    margin-top: 0px
 }
 
 .mtor-photo {
@@ -218,7 +221,7 @@ header {
     height: 50%;
     border-radius: 10px;
     margin-bottom: 15px;
-    margin-top: 5px;
+    margin-top: 0px;
     padding-top: 0px
 }
 
@@ -251,7 +254,7 @@ header {
     align-items: center; 
     gap: 20px;
     flex-shrink: 0; 
-    margin-top: 5px;
+    margin-top: 0px;
     padding-top: 0px;
 }
 .barplot2-container {
@@ -283,6 +286,7 @@ header {
     line-height: 1.5;
     max-width: 800px; 
     padding-top: 0px;
+    margin-top: 5px;
 }
 
 
