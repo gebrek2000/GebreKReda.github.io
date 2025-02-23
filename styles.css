@@ -144,7 +144,7 @@ header {
 /* research setups */
 .research-container1 {
     display: flex;
-    align-items: center; 
+    align-items: top; 
     justify-content: space-between; 
     width: 100%;
     max-width: 1400px; 
@@ -157,7 +157,7 @@ header {
 
 .research-container2 {
     display: flex;
-    align-items: center; 
+    align-items: top; 
     justify-content: space-between; 
     width: 100%;
     max-width: 1200px; 
@@ -184,19 +184,19 @@ heading 2, p {
 
 .allocation-container {
     flex-shrink: 0; 
-    width: 500px; 
+    width: 200px; 
 }
 
 .allocation-photo {
     width: 100%;
-    height: 90%;
+    height: 100%;
     border-radius: 10px;
     margin-bottom: 5px; 
     padding-bottom: 0px;
 }
 
 .allocation-result-photo {
-    width: 90%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
 }
@@ -207,7 +207,7 @@ heading 2, p {
 }
 
 .wild_quail-photo {
-    width: 90%;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
 }
@@ -220,6 +220,7 @@ heading 2, p {
     max-width: 1200px; 
     padding-top: 0px;
     margin-top: 0px
+    align-items: top;
 }
 
 .mtor-photo {
@@ -229,12 +230,14 @@ heading 2, p {
     margin-bottom: 15px;
     margin-top: 0px;
     padding-top: 0px
+    align-items: top;
 }
 
 .mtor_pathway-container {
     flex-shrink: 0; 
     margin-top: 50px;
     width: 300px;
+     align-items: top;
 }
 
 .mtor_pathway-photo {
@@ -257,12 +260,13 @@ heading 2, p {
 .result-photo {
     display: flex;
     flex-direction: column; 
-    align-items: center; 
+    align-items: top; 
     gap: 20px;
     flex-shrink: 0; 
     margin-top: 0px;
     padding-top: 0px;
 }
+
 .barplot2-container {
     flex-shrink: 0; 
     width: 300px; 
@@ -293,6 +297,7 @@ heading 2, p {
     max-width: 800px; 
     padding-top: 0px;
     margin-top: 5px;
+     align-items: top;
 }
 
 div {
