@@ -282,6 +282,7 @@ header {
     max-width: 90%; /* Adjust width */
     margin: auto;
     padding: 20px;
+    background-color: #f0fffa;
 }
 
 /* Make the last row contain 5 items */
@@ -304,10 +305,10 @@ header {
 /* Caption inside the image */
 .image-box .caption {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0);
     color: white;
     padding: 5px 10px;
     font-size: 14px;
