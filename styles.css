@@ -459,3 +459,31 @@ body {
 .social-icons a:hover {
     color: #006400; 
 }
+
+@media (max-width: 768px) {
+  .research-container1,
+  .research-container2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text1-container,
+  .text2-container,
+  .allocation-photo,
+  .mtor-photo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .text1-container p,
+  .text2-container p {
+    padding: 5px;
+  }
+}
+
