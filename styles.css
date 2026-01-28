@@ -286,9 +286,9 @@ header {
 }
 
 /* Make the last row contain 5 items */
-.gallery-container .image-box:nth-child(n+13) {
+/*.gallery-container .image-box:nth-child(n+13) {
     grid-column: span 1;
-}
+} */
 
 .image-box {
     position: relative;
@@ -528,6 +528,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 
 
